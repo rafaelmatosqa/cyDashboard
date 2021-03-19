@@ -1,0 +1,26 @@
+{
+  "name": "projeto_cydashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run-dashboard":"npx cypress run --record --key 22e8109f-da42-4a12-9fbe-9622f03b68c2",
+    "start-jenkins-server":"java -jar jenkins.war --httpPort=8080 --enable-future-java"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelmatosqa/cyDashboard.git"
+  },
+  "author": "Rafael Matos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelmatosqa/cyDashboard/issues"
+  },
+  "homepage": "https://github.com/rafaelmatosqa/cyDashboard#readme",
+  "dependencies": {
+    "cypress": "^6.8.0",
+    "prettier": "^2.2.1"
+  }
+}
